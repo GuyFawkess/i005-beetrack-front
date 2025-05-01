@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# 📦 Beetrack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Beetrack** is a modern web application designed to help small businesses streamline their inventory and sales processes. By digitalizing product management and simplifying sales operations, Beetrack helps merchants save time and increase revenue.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📱 **Barcode Scanning**: Quickly digitalize your products using barcode scanning.
+- 📊 **Stock Control**: Monitor your inventory in real-time with low-stock alerts.
+- 💰 **Smart Checkout**: Automate sale calculations to speed up the checkout process.
+- 🧾 **Ticket Generation**: Instantly send purchase tickets to customers via WhatsApp.
+- 📈 **Reports & Analytics**: Visualize detailed sales reports and daily summaries.
+- 🧮 **Cash Register Summary**: Close your sales day easily from a user-friendly dashboard.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This repository includes the **frontend** of the application, built with:
 
-- Configure the top-level `parserOptions` property like this:
+- ⚛️ **React + Vite** – Lightning-fast development environment and modern React stack
+- 💡 **Zustand** – Lightweight state management library
+- ✅ **Zod** – Type-safe schema validation
+- 📋 **react-hook-form** – Efficient form management with easy integration
+- 📦 **jQuery** – For DOM manipulation and handling some dynamic logic
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+> 📌 **Note**: The backend is hosted in a separate repository. You can find it here: [[Backend Repository](https://github.com/GuyFawkess/i005-beetrack-front)]
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 📸 Demo
+
+![Captura de pantalla 2025-04-19 173603](https://github.com/user-attachments/assets/4d2810b7-a633-4ecf-8163-c5766ab55e4b)
+
+https://www.behance.net/gallery/224509729/Beetrack-sales-inventory-manager-Case-Study
+
+
+## 🧑‍💻 The team and the proyect
+
+Gratefull with the amazing team I had the oportunity to work with:
+
+https://www.behance.net/gallery/224509729/Beetrack-sales-inventory-manager-Case-Study
+
+
