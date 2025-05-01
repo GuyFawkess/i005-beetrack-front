@@ -27,8 +27,6 @@ This repository includes the **frontend** of the application, built with:
 
 ![Captura de pantalla 2025-04-19 173603](https://github.com/user-attachments/assets/4d2810b7-a633-4ecf-8163-c5766ab55e4b)
 
-https://www.behance.net/gallery/224509729/Beetrack-sales-inventory-manager-Case-Study
-
 
 ## 🧑‍💻 The team and the proyect
 
